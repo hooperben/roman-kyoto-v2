@@ -1,10 +1,10 @@
-# Noir Hardhat Template (v2)
+# Roman Kyoto V2
 
-This is a developer tool that's intended to help with developing zero knowledge circuits within EVM smart contracts.
+Roman Kyoto is a multi asset shield pool (a MASP). The first version was created at ETHGlobal sydney 2024 by Rudy, Jack, Ayad and myself.
 
-### Installation
+The goal of this project is to recreate RKs functionality, while converting the circuits from circom to noir.
 
-Bun is super fast - I reckon use it to manage dependencies:
+## Installation
 
 ```bash
 bun install
