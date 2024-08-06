@@ -79,3 +79,9 @@ happy hacking
 ### Disclaimer
 
 This code is not audited and I only have pretty rudimentary knowledge of the moon maths at hand. If you're serious about deploying this - please get this looked at by someone who knows what an UltraPLONK is.
+
+## Deciphering the moon maths at hand
+
+One of the significant advantages on noir > 0.31.0 is it's new native library implementation of twisted edwards curves. In the previous version of roman kyoto, we had to do this within solidity, which inflated the cost of transactions considerably.
+
+A goal of this project is to also utilise recursive proofs, so that for any deposit, transferral or withdrawal, hopefully only one proof is needed.
